@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #77c2cc;
+}
+
+.title {
+  color: rgb(209, 78, 111);
+  font-family: 'Russo One', sans-serif;
+}
+
+.preview {
+  background-color: white;
+  padding: .4rem;
+}
+
+.preview img {
+  max-width: 100%;
+}
+
+textarea, .preview {
+  min-height: 400px !important;
+  border: 1px solid rgb(175, 175, 175);
+  box-shadow: 1px 1px 10px 2px #2892a0;
+}
+
+.floating-text {
+	background-color: #001F61;
+	border-radius: 10px 10px 0 0;
+	color: #fff;
+  font-size: 1.15rem;
+	font-family: 'Muli';
+	padding: 7px 15px;
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	z-index: 998;
+}
+
+.floating-text span {
+	color: #FF7500;
+	text-decoration: none;
+}
+
+.swal-text {
+  background-color: #FEFAE3;
+  padding: 17px;
+  border: 1px solid #F0E1A1;
+  display: block;
+  margin: 22px;
+  text-align: center;
+  color: #61534e;
+}
