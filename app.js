@@ -1,5 +1,5 @@
 const defaultMarkup = `
-# Welcome to my React Markdown Previewer!
+# React Markdown Previewer!
 
 ## This is a sub-heading...
 ### And here's some other cool stuff:
