@@ -28,23 +28,3 @@ textarea, .preview {
   border: 1px solid rgb(175, 175, 175);
   box-shadow: 1px 1px 10px 2px #2892a0;
 }
-
-.floating-text {
-	background-color: #001F61;
-	border-radius: 10px 10px 0 0;
-	color: #fff;
-  font-size: 1.15rem;
-	font-family: 'Muli';
-	padding: 7px 15px;
-	position: fixed;
-	bottom: 0;
-	left: 50%;
-	transform: translateX(-50%);
-	text-align: center;
-	z-index: 998;
-}
-
-.floating-text span {
-	color: #FF7500;
-	text-decoration: none;
-}
